@@ -10,19 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.g oogleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>LandingPage</title>
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        
             <h1 class="colort navbar__title">Landign Pages</h1>
-            <ul class="navbar__options">
-                <li><a href="#home" class="colort">Home</a></li>
-                <li><a href="#about" class="colort">About Me</a></li>
-                <li><a href="#works" class="colort">Works</a></li>
-                <li><a href="#contact" class="colort">Contact</a></li>
-            </ul>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">&#8801</label>
+            <nav class="navbar">
+                <ul class="navbar__options">
+                    <li><a href="#home" class="colort">Home</a></li>
+                    <li><a href="#about" class="colort">About Me</a></li>
+                    <li><a href="#works" class="colort">Works</a></li>
+                    <li><a href="#contact" class="colort">Contact</a></li>
+                </ul>
+            <label for="check" class="esconder-menu">&#215</label>
         </nav>
     </header>
     <main >
@@ -34,8 +38,10 @@
                         <div class="section1__button">
                             <input type="button" value="To Contact" name="contact" id="button">
                         </div>    
-                </div>    
+                </div>
+                <div class="section1__img">    
                     <img src="imagen1.jpg" alt="primera imagen" class="section1__image">
+                </div>
             </div>
         </section>
         <hr>
@@ -54,35 +60,32 @@
             <div class="section3__imgs">
                 <div class="section3__img">
                     <img src="imagen3.jpg" alt="tercera imagen" class="section3__im">
-                    <img src="imagen3.jpg" alt="tercera imagen" class="section3__im">
+                    <img src="imagen3.jpg" alt="tercera imagen" class="hidden section3__im">
                 </div>      
                 <div class="section3__img">
                     <img src="imagen4.png" alt="cuarta imagen" class="section3__im">
-                    <img src="imagen4.png" alt="cuarta imagen" class="section3__im">
+                    <img src="imagen4.png" alt="cuarta imagen" class="hidden section3__im">
                 </div>
                 <div class="section3__img">
                     <img src="imagen5.jpg" alt="quinta imagen" class="section3__im">
-                    <img src="imagen5.jpg" alt="quinta imagen" class="section3__im">
+                    <img src="imagen5.jpg" alt="quinta imagen" class="hidden section3__im">
                 </div>
             </div>
         </section>
         <hr>
     </main>
-    <div>
+    
         <h2 class="colort form__title" id="contact">To Contact</h2>
         <form class="form">
             <div class="form__div"> 
-                <div class="form__div2">
-                    
                     <input type="text" class="form__input" placeholder="Name">  
                     <input type="text" class="form__input" placeholder="Last Name">  
                     <input type="email" class="form__input" placeholder="Email">
                     <textarea name="description" class="form__textarea" placeholder="Description"></textarea>
                     <input type="button" value="Send" name="send" class="form__button">  
-                </div>
             </div>
          </form>
-    </div>
+    
     <footer>
         <div class="footer__content">
             <h2 class="colort footer__title">Landign Pages</h2>
