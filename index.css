@@ -291,7 +291,7 @@ footer {
 
     .navbar{
         position: fixed;
-        width: 100%;
+        width: 390px;
         height: 100vh;
         background: #1E293B;
         right: -100%;
@@ -300,6 +300,7 @@ footer {
         padding: 100px 0px;
         z-index: 100;
         transition: .8s;
+        display: flex;
     }
 
     .navbar a{
@@ -347,6 +348,10 @@ footer {
         width: 200px;
         height: 35px;
         font-size: 10px;
+    }
+
+    .checkbtn {
+        color: #1E293B;
     }
 
     .section1__image {
@@ -408,10 +413,15 @@ footer {
 
     /*Footer*/
 
-    .footer__map, .footer__content{
+    .footer__map, .footer__content, .footer__mapa{
         visibility: hidden;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+        margin: 0px;
+        border-left: 0px;
     }
-   
+
     footer{
         width: 390px;
         height: 100vh;
